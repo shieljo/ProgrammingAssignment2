@@ -7,10 +7,10 @@
 ## object which contains a matrix and an empty cache for the
 ## inverse of the matix. 
 
-## The second function calculates checks the cache of the inverse and, if it
+## The second function checks the cache of the inverse and, if it
 ## is empty, calculates the inverse of the matrix, and caches it. If the cache is
 ## not empty the the function returns the contents of the cached instead of 
-## re-calculating the inverse to save timeo save time.
+## re-calculating the inverse to save time.
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
